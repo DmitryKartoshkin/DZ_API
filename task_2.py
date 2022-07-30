@@ -25,7 +25,7 @@ class YaUploader:
             print("Success")
 
 if __name__ == '__main__':
-    TOKEN = "AQAAAABja0CAAADLW6ives3LAEkxjhNQJD1D3uc"
+    TOKEN = ""
     path_to_file = "test.txt"
     uploader = YaUploader(token = TOKEN)
     result = uploader.upload(path_to_file, path_to_file)
